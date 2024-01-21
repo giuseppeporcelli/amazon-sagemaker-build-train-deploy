@@ -43,10 +43,9 @@ In this module, you will create a JuputerLab space in SageMaker Studio and clone
     
     <img src="../images/module_01/studio_clone_repo.png" alt="Clone repo in SageMaker Studio" width="800px" />
 	
-3. Browse to the folder **01_build_and_train** and open the file **01_build_and_train.ipynb**.
+
+## Open Module 1 notebook in JuputerLab IDE
+
+1. Browse to the folder **01_build_and_train** , open the notebook **01_build_and_train.ipynb** and continue follow the instructions in the notebook.
 
 <img src="../images/module_01/studio_select_first_notebook.png" alt="Open the first notebook in SageMaker Studio" width="800px" />
-
-## Continue the workshop in the SageMaker Studio environment
-
-Continue the workshop by following the instructions in **01_build_and_train.ipynb** notebook you just opened in the JupyterLab IDE.
