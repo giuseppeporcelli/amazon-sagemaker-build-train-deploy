@@ -2,9 +2,11 @@
 
 In this module, you will create a JupyterLab space in SageMaker Studio and clone this GitHub repository in that JupyterLab space. You will then build and train models using a notebook in the newly created JupyterLab space.
 
+In this module (Module 1), you will use a [JupyterLab space](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-updated-jl.html), a private space within SageMaker Studio that manages the storage and compute resources needed to run the JupyterLab application. The JupyterLab application is a web-based interactive development environment (IDE) for notebooks, code, and data.
+
 ## Create a JupyterLab space in SageMaker Studio
 
-1. In this module (module 1), you will use a [JupyterLab space](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-updated-jl.html), a private space within SageMaker Studio that manages the storage and compute resources needed to run the JupyterLab application. The JupyterLab application is a web-based interactive development environment (IDE) for notebooks, code, and data. Launch the JupyterLab application by clicking on the highlighted button under **Applications**, then choose **Create JupyterLab space**.  
+1.  Launch the JupyterLab application by clicking on the **JupyterLab** button under **Applications**, then choose **Create JupyterLab space**.  
 
 <img src="../images/module_01/sagemaker_studio_home.png" alt="Studio interface" width="700px" />
 
