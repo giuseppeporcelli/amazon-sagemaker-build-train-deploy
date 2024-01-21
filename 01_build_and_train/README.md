@@ -1,6 +1,6 @@
 # Module 1: Build and train models
 
-In this module, you will create a JuputerLab space in SageMaker Studio and clone this GitHub repository in the newly created JupyterLab space.
+In this module, you will create a JupyterLab space in SageMaker Studio and clone this GitHub repository in that JupyterLab space. You will then build and train models using a notebook in the newly created JupyterLab space.
 
 ## Create a JupyterLab space
 
