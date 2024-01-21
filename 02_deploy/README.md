@@ -1,8 +1,8 @@
 # Module 2: Deploy the models
 
-In this module, you will create a Code Editor space in SageMaker Studio and clone this GitHub repository in the Code Editor environment. You will then deploy the trained models to a SageMaker inference endpoint using a deployment script written in Python.
+In this module, you will create a Code Editor space in SageMaker Studio and clone the GitHub repository, this time in the Code Editor environment. You will then deploy the trained models to a SageMaker inference endpoint using a deployment script written in Python.
 
- In this module, you will use the [Code Editor](https://docs.aws.amazon.com/sagemaker/latest/dg/code-editor.html), based on [Code-OSS, Visual Studio Code - Open Source](https://github.com/microsoft/vscode#visual-studio-code---open-source-code---oss), which allows you to write, test, debug, and run your analytics and machine learning code using the popular lightweight IDE. Code Editor is fully integrated with Amazon SageMaker Studio and supports IDE extensions available in the Open VSX Registry.
+The [Code Editor](https://docs.aws.amazon.com/sagemaker/latest/dg/code-editor.html), which is based on [Code-OSS, Visual Studio Code - Open Source](https://github.com/microsoft/vscode#visual-studio-code---open-source-code---oss) and fully integrated with SageMaker Studio, allows you to write, test, debug, and run your analytics and machine learning code using the popular lightweight IDE.
 
 ## Create a Code Editor space in SageMaker Studio
 
