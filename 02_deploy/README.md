@@ -47,10 +47,6 @@ Choose "Open Folder" button. Alternatively, from the Explorer menu, choose **Fil
 
 <img src="../images/module_02/code_editor_open_folder.png" alt="Clone repo in Code Editor" width="800px" />
 
-The cloned repository folder will appear in the file browser panel as shown below:
-
-<img src="../images/module_02/code_editor_open_deploy_script.png" alt="Clone repo in Code Editor" width="800px" />
-
 
 ## Open deployment script in Code Editor
 
