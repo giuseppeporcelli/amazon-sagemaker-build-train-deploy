@@ -46,8 +46,12 @@ In this module (Module 1), you will use a [JupyterLab space](https://docs.aws.am
     <img src="../images/module_01/studio_clone_repo.png" alt="Clone repo in SageMaker Studio" width="800px" />
 	
 
-## Open Module 1 notebook in JupyterLab IDE
+## Open the module 1 notebook in JupyterLab IDE
 
 1. Browse to the folder **01_build_and_train** , open the notebook **01_build_and_train.ipynb** and continue follow the instructions in the notebook.
 
 <img src="../images/module_01/studio_select_first_notebook.png" alt="Open the first notebook in SageMaker Studio" width="800px" />
+
+
+## Proceed to Module 2: Deploy the models
+You have completed Module 1: Build and train models. Please proceed to [Module 2: Deploy the models](../02_deploy/README.md).
