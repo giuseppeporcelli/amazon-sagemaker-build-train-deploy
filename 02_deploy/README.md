@@ -55,7 +55,7 @@ Choose "Open Folder" button. Alternatively, from the Explorer menu, choose **Fil
 <img src="../images/module_02/code_editor_open_deploy_script.png" alt="Open the first notebook in SageMaker Studio" width="800px" />
 
 
-## Run the deployment script
+## Deploy the model to an inference endpoint
 
 1. Open the Terminal window again. If you have closed it or cannot locate it, you can open a new Terminal window by opening the Explorer menu and choosing **Terminal >> New Terminal**.
 
@@ -64,12 +64,18 @@ Choose "Open Folder" button. Alternatively, from the Explorer menu, choose **Fil
 ```
 pip install -r requirements.txt
 ```
-<img src="../images/module_02/install_dependencies.png" alt="Open the first notebook in SageMaker Studio" width="700px" />
+<img src="../images/module_02/install_dependencies.png" alt="Install dependencies" width="700px" />
 
 3. Once all dependencies are installed and the previous command has finished executing, choose the **Run Python File** Icon as displayed below:
 
-<img src="../images/module_02/run_deploy_script.png" alt="Open the first notebook in SageMaker Studio" width="700px" />
+<img src="../images/module_02/run_deploy_script.png" alt="Run the deployment script" width="700px" />
 
-The deployment script will retrieve the model artifacts built in the previous module, and deploys it to a SageMaker inference endpoint. Note that the deployment process is non-blocking, so when the script finishes executing, it will take a few minutes for the endpoint to be in service.
+The deployment script will retrieve the model artifacts built in the previous module and deploy it to a SageMaker inference endpoint. Note that the deployment process is non-blocking, so when the script finishes executing, it will take a few minutes to deploy the endpoint.
 
-<img src="../images/module_02/deploy_output.png" alt="Open the first notebook in SageMaker Studio" width="700px" />
+<img src="../images/module_02/deploy_output.png" alt="Deploy output" width="700px" />
+
+4. Check the deployment by going back to the SageMaker console and choosing **Inference >> Endpoints**. Locate the endpoint whose name starts with `sagemaker-btd-endpoint-` and wait until the **Status** column shows **InService**.
+
+<img src="../images/module_02/endpoints.png" alt="List of endpoints" width="700px" />
+
+## Perform predictions using the deployed model
