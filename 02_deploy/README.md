@@ -16,15 +16,15 @@ The [Code Editor](https://docs.aws.amazon.com/sagemaker/latest/dg/code-editor.ht
 
 3. A new page shows the settings for the new JupyterLab space you created. Wait for a few seconds until the **Run space** button becomes active. Then run the space.  
 
-<img src="../images/module_02/run_space.png" alt="Create JupyterLab space" width="700px" />
+<img src="../images/module_02/run_space.png" alt="Run Code Editor space" width="700px" />
 
 4. Choose the **Open Code Editor** when it appears.
 
-<img src="../images/module_02/open_code_editor.png" alt="Create JupyterLab space" width="700px" />
+<img src="../images/module_02/open_code_editor.png" alt="Open Code Editor space" width="700px" />
 
-5.  The JupyterLab IDE will load.
+5.  The Code Editor IDE will load.
 
-<img src="../images/module_02/code_editor_home.png" alt="Studio Classic IDE" width="700px" />
+<img src="../images/module_02/code_editor_home.png" alt="Code Editor IDE" width="700px" />
 
 
 ## Clone the GitHub repository
