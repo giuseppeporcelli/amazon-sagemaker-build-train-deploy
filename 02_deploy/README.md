@@ -48,16 +48,21 @@ Choose "Open Folder" button. Alternatively, from the Explorer menu, choose **Fil
 <img src="../images/module_02/code_editor_open_folder.png" alt="Clone repo in Code Editor" width="800px" />
 
 
-## Open deployment script in Code Editor
+## Open and review the deployment script in Code Editor
 
 1. In the Explorer window, browse to the folder **02_deploy** and open the Python file **deploy.py**.
 
 <img src="../images/module_02/code_editor_open_deploy_script.png" alt="Open the first notebook in SageMaker Studio" width="800px" />
 
+2. Make yourself familiar with the deployment steps. The deployment script performs the following steps:
+	- Load the featurizer (SKLearn) and regression (XGBoost) models from the S3 bucket. The jobs you ran in Module 1 has stored the models in the S3 bucket.
+	- Prepare the model for deployment using the [ModelBuilder](https://docs.aws.amazon.com/sagemaker/latest/dg/how-it-works-modelbuilder-creation.html) in SageMaker Python SDK. The ModelBuilder reduces complexity of setup and deployment of models, which involves choosing a model image, setting up the endpoint configuration, coding your serialization and deserialization functions to transfer data to and from server and client, identifying model dependencies, and uploading them to Amazon S3.
+	- Build a [PipelineModel](https://sagemaker.readthedocs.io/en/stable/api/inference/pipeline.html), which is a pipeline of SageMaker Model instances (in this case, the featurizer and regregionn models).
+	- Deploy the pipeline model on a real-time inference endpoint. Learn more about [Deploying models for inference](https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model.html). 
 
 ## Deploy the model to an inference endpoint
 
-1. Open the Terminal window again. If you have closed it or cannot locate it, you can open a new Terminal window by opening the Explorer menu and choosing **Terminal >> New Terminal**.
+1. Open the Terminal window again. If you have closed it or cannot locate it, open the Explorer menu and choose **Terminal >> New Terminal**.
 
 2. In the Terminal window, run the following command to install the dependencies required by the script.
 
@@ -74,8 +79,27 @@ The deployment script will retrieve the model artifacts built in the previous mo
 
 <img src="../images/module_02/deploy_output.png" alt="Deploy output" width="700px" />
 
-4. Check the deployment by going back to the SageMaker console and choosing **Inference >> Endpoints**. Locate the endpoint whose name starts with `sagemaker-btd-endpoint-` and wait until the **Status** column shows **InService**.
+4. Check the deployment by going back to SageMaker console and choosing **Inference >> Endpoints**. Locate the endpoint whose name starts with `sagemaker-btd-endpoint-` and wait until the **Status** column shows **InService**.
+
+5. Make note of the name of the SageMaker endpoint you have just deployed. The name starts with `sagemaker-btd-endpoint-`.
 
 <img src="../images/module_02/endpoints.png" alt="List of endpoints" width="700px" />
 
+## Open test script in Code Editor
+
+1. In the Explorer window, from folder **02_deploy**, open the Python file **test.py**.
+
+<img src="../images/module_02/code_editor_open_test_script.png" alt="Open test script" width="800px" />
+
 ## Perform predictions using the deployed model
+1. Go back to the Terminal window. If you have closed it or cannot locate it, open the Explorer menu and choose **Terminal >> New Terminal**.
+
+2. Make sure you are in the `02_deploy` folder in the Terminal, then type the following commmand, replacing ENDPOINT_NAME with the name you made a note of in the previous section.
+
+```
+python3 test.py ENDPOINT_NAME
+```
+
+<img src="../images/module_02/test.png" alt="Open test script" width="800px" />
+
+You should see two inference results in the Terminal window.
