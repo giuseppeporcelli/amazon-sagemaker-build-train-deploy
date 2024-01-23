@@ -14,5 +14,5 @@
 
 5. You can track progress of the pipeline by going to **SageMaker Studio** UI and choosing **Pipelines** from the sidebar menu.
 
-## Proceed to module 4
-You have completed module 3: Create a complete deployment pipeline. Please proceed to [module 4: Build a HTTP API using Amazon API Gateway and AWS Lambda](../04_api_gateway_and_lambda/README.md).
+## Proceed to Module 4
+You have completed Module 3: Create a complete deployment pipeline. Please proceed to [Module 4: Build a HTTP API using Amazon API Gateway and AWS Lambda](../04_api_gateway_and_lambda/README.md).

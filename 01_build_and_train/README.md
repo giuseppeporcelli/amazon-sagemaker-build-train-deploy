@@ -6,7 +6,7 @@ The JupyterLab application is a web-based interactive development environment (I
 
 ## Create a JupyterLab space in SageMaker Studio
 
-1.  Launch the JupyterLab application by clicking on the **JupyterLab** button under **Applications**, then choose **Create JupyterLab space**.  
+1.  In SageMaker Studio, launch the JupyterLab application by clicking on the **JupyterLab** button under **Applications**, then choose **Create JupyterLab space**.  
 
 <img src="../images/module_01/sagemaker_studio_home.png" alt="Studio interface" width="700px" />
 
@@ -31,7 +31,7 @@ The JupyterLab application is a web-based interactive development environment (I
 
 1. In the **File** menu, choose **New >> Terminal**
 
-	<img src="../images/module_01/studio_new_terminal.png" alt="Studio New Terminal" width="800px" />
+	<img src="../images/module_01/studio_new_terminal.png" alt="Studio New Terminal" width="600px" />
 
 	This will open a terminal window in the Jupyter interface.
 
@@ -54,6 +54,6 @@ The JupyterLab application is a web-based interactive development environment (I
 
 2. Follow the instructions in the Jupyter notebook.
 
-## Proceed to module 2
+## Proceed to Module 2
 
-You have completed module 1: Build and train models. Please proceed to [module 2: Deploy the models](../02_deploy/README.md).
+You have completed Module 1: Build and train models. Please proceed to [Module 2: Deploy the models](../02_deploy/README.md).

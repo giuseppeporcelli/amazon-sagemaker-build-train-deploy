@@ -6,7 +6,7 @@ The [Code Editor](https://docs.aws.amazon.com/sagemaker/latest/dg/code-editor.ht
 
 ## Create a Code Editor space in SageMaker Studio
 
-1. Launch the Code Editor application by clicking on the **Code Editor** button under **Applications**, then choose **Create Code Editor space**.  
+1. In SageMaker Studio, launch the Code Editor application by clicking on the **Code Editor** button under **Applications**, then choose **Create Code Editor space**.  
 
 <img src="../images/module_02/sagemaker_studio_home.png" alt="SageMaker Studio Home" width="700px" />
 

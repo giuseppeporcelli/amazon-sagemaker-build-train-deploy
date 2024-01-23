@@ -17,11 +17,9 @@ Make sure you:
 
 Then, click on **Send** to execute the request and get the inference result.
 
-## You have completed module 5 and the workshop
+## You have completed the workshop!
 
-Well done!
-
-We hope you have enjoyed the journey. In this workshop, you followed an experimentation process in SageMaker Studio in a JupyterLab space and built and trained a model. You then used SageMaker Studio's Code Editor, which is based on Code-OSS (Visual Studio Code – Open Source), to deploy the model into an endpoint. You then built a SageMaker Pipeline to automate the complete process, and created an HTTP API to allows web clients to perform predictions.
+We hope you have enjoyed the journey. In this workshop, you followed an experimentation process in SageMaker Studio using a JupyterLab space and built and trained a model. You then used SageMaker Studio's Code Editor, which is based on Code-OSS, to deploy the model on a SageMaker inference endpoint. You then built a SageMaker Pipeline to automate the complete process, and created an HTTP API to allows web clients to perform predictions.
 
 Please feel free to contiunue exploring the SageMaker Studio environment and reading the notes in the notebooks you might have skipped when going through the modules.
 
