@@ -109,4 +109,4 @@ You should see two inference results in the Terminal window.
 
 ## Proceed to Module 3
 
-You have completed Module 2: Deploy the models. Please proceed to [Module 3: Create a complete pipeline](../03_workflow/README.md).
+You have completed Module 2: Deploy the models. Please proceed to [Module 3: Create a complete deployment pipeline](../03_workflow/README.md).
