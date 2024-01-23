@@ -28,4 +28,4 @@ Please feel free to contiunue exploring the SageMaker Studio environment and rea
 AWS Workshop Studio performs the clean up after the event, so you don't need to clean up the resources.
 
 ### Self-paced using your AWS account
-Follow the clean up steps to avoid incurring charges.
+Follow the [clean up steps](../cleanup/README.md) to avoid incurring costs when you no longer require the resources.
