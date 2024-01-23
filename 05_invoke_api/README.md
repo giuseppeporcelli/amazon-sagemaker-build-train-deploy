@@ -33,4 +33,3 @@ AWS Workshop Studio performs the clean up after the event, so you don't need to 
 
 ### Self-paced using your AWS account
 Follow the clean up steps to avoid incurring charges.
-

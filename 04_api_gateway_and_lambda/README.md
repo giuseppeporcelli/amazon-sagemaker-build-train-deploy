@@ -1,4 +1,4 @@
-# Module 6: Build a HTTP API using Amazon API Gateway and AWS Lambda
+# Module 4: Build a HTTP API using Amazon API Gateway and AWS Lambda
 
 > ⚠️ This module does not have a Jupyter notebook. 
 
@@ -148,8 +148,6 @@ When the Lambda function receives a POST request, it invokes the Amazon SageMake
 
 > The API expects a POST HTTP request that contains a comma-delimited list of feature values in the body. If you try to naviagate to the API endpoint URL in the browser, the API will receive a GET request, so it will return HTTP status code 405 (Method Not Allowed).
 
-## You have completed module 4
+## Proceed to module 5
 
-You have now created an HTTP API that accepts inference requests. 
-
-Proceed to module 5 to test the new HTTP API endpoint.
+You have completed module 4: Build a HTTP API using Amazon API Gateway and AWS Lambda. Please proceed to [module 5: Invoke the HTTP API from the browser](../05_invoke_api/README.md).

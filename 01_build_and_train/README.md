@@ -54,5 +54,6 @@ In this module (Module 1), you will use a [JupyterLab space](https://docs.aws.am
 
 2. Follow the instructions in the Jupyter notebook.
 
-## Proceed to Module 2: Deploy the models
-You have completed Module 1: Build and train models. Please proceed to [Module 2: Deploy the models](../02_deploy/README.md).
+## Proceed to module 2
+
+You have completed module 1: Build and train models. Please proceed to [module 2: Deploy the models](../02_deploy/README.md).

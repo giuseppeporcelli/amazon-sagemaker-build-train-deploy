@@ -96,7 +96,7 @@ Please execute the following steps:
 	
 	<img src="images/cloudformation_create_stack2_step_1.png" alt="CloudFormation create stack screen 1" width="700px" />
 	
-3. On the **Specify stack details** screen, enter a name like `endtoendml-workshop-domain` as the Stack name. For the **CoreNetworkingStackName** parameter, enter the name of the stack you created earlier (if you used the value suggested on this page, the stack name would be `endtoendml-workshop-networking`). For the user profile name, accept the default value. Finally, press **Next**.
+3. On the **Specify stack details** screen, enter a name like `endtoendml-workshop-domain` as the Stack name. For the **CoreNetworkingStackName** parameter, enter the name of the stack you created earlier (if you used the value suggested on this page, the stack name would be `endtoendml-workshop-networking`). Accept the default values for **KMSValue** and **UserProfileName** parameters. Finally, press **Next**.
 	
 	<img src="images/cloudformation_create_stack2_step_2.png" alt="CloudFormation create stack screen 2" width="700px" />
 	
