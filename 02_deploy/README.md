@@ -88,7 +88,7 @@ The [Code Editor](https://docs.aws.amazon.com/sagemaker/latest/dg/code-editor.ht
 
 6. Check the deployment progress by going back to SageMaker Studio and choosing **Deployment >> Endpoints** from the menu on the left. Locate the endpoint whose name starts with `sagemaker-btd-endpoint-`. Choose the **Refresh** link every couple of minutes and wait until the **Status** column shows **InService**.
 
-	<img src="../images/module_02/view_endpoints.png" alt="List of endpoints" width="700px" />
+	<img src="../images/module_02/view_endpoints.png" alt="List of endpoints" width="800px" />
 
 7. Make note of the name of the SageMaker endpoint you have just deployed. You will need the name in the next section. The endpoint name starts with `sagemaker-btd-endpoint-`.
 
