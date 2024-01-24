@@ -29,7 +29,7 @@ The [Code Editor](https://docs.aws.amazon.com/sagemaker/latest/dg/code-editor.ht
 
 ## Clone the GitHub repository
 
-1. As highlighted below, from the Explorer menu, choose **File >> New >> Terminal**
+1. As highlighted below, from the Explorer menu, choose **Terminal >> New Terminal**
 
 	<img src="../images/module_02/code_editor_new_terminal.png" alt="Code Editor New Terminal" width="800px" />
 
@@ -61,7 +61,7 @@ Choose "Open Folder" button. Alternatively, from the Explorer menu, choose **Fil
 	- Deploy the pipeline model on a real-time inference endpoint. Learn more about [Deploying models for inference](https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model.html). 
 
 
-3. Open the Terminal window again. If you have closed it or cannot locate it, open the Explorer menu and choose **File >> New >> Terminal**.
+3. Open the Terminal window again. If you have closed it or cannot locate it, open the Explorer menu and choose **Terminal >> New Terminal**.
 
 4. In the Terminal window, run the following command to install the dependencies required by the script.
 
@@ -94,7 +94,7 @@ The deployment script will deploy the model to a SageMaker inference endpoint. N
 	- The test script uses the **Predictor** class from SageMaker Python SDK to predict scores based on the input feature values. The model pipeline behind the inference endpoint will first use the featurizer model to preprocess the features, and then pass the result to the XGBoost regression model to predict the score. 
 	- Note that the test script expects the SageMaker inference endpoint name as an input argument.
 
-3. Go back to the Terminal window. If you have closed it or cannot locate it, open the Explorer menu and choose **File >> New >> Terminaln**.
+3. Go back to the Terminal window. If you have closed it or cannot locate it, open the Explorer menu and choose **Terminal >> New Terminal**.
 
 4. Make sure you are in the **02_deploy** folder in the Terminal, then type the following commmand, replacing ENDPOINT_NAME with the name you made a note of in the previous section.
 
