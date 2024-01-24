@@ -46,13 +46,24 @@ The JupyterLab application is a web-based interactive development environment (I
     <img src="../images/module_01/studio_clone_repo.png" alt="Clone repo in SageMaker Studio" width="800px" />
 	
 
-## Open the module 1 notebook in JupyterLab IDE
+## Open Module 1's notebook in JupyterLab IDE
 
 1. Browse to the folder **01_build_and_train** and open the notebook **01_build_and_train.ipynb**.
 
 <img src="../images/module_01/studio_select_first_notebook.png" alt="Open the first notebook in SageMaker Studio" width="800px" />
 
 2. Follow the instructions in the Jupyter notebook.
+
+## View SageMaker's training jobs created during experimentation
+1. Go back to the SageMaker Studio tab/window in the browser where you ran the JupyterLab application from when you started this module.
+
+2. From the sidebar meny, choose **Jobs >> Training**.
+
+3. The list pane on the right will display the jobs created by running the cells in the notebooks. More specifically, you will observe at least two training jobs, whose names start with `amzn-sm-btd-`. SageMaker SDK created and ran the preprocessing and training jobs because of the presence of the @remote decorator. Note that the @remote decorator runs all of these steps as "training jobs".
+
+4. Feel free to explore the details of those training jobs. The details pane provides additional information, such as the run time (in seconds), the location of input and output artifacts in Amazon S3, and the training image used by SageMaker training jobs. 
+
+<img src="../images/module_01/training_jobs.png" alt="Explore training jobs" width="800px" />
 
 ## Proceed to Module 2
 
