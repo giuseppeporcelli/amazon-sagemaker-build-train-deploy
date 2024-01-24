@@ -16,15 +16,15 @@ Let's start building the HTTP API.
 2. In the **Functions** section, click on **Create function**.
 3. Select **Author from scratch**.
 
-    <img src="images/lambda_01.png" alt="select blueprint" width="700px" />
+    <img src="../images/module_04/lambda_01.png" alt="select blueprint" width="700px" />
 
 4. Type **end-to-end-ml-lambda-function** in the function name textbox. Select **Use an existing role** and then choose the IAM role whose name starts with **_LambdaInvokeSageMakerEndpointRole_** from the **Existing Role** dropdown. This IAM role, which has been created by the workshop setup process, has permission to invoke the Amazon SageMaker endpoint.
 
-    <img src="images/lambda_02.png" alt="Select IAM role" width="700px" />
+    <img src="../images/module_04/lambda_02.png" alt="Select IAM role" width="700px" />
 
 5. You are now redirected to the Lambda function page. In the **Function code** section, double click "lambda_function.py":
 
-    <img src="images/lambda_03.png" alt="Configure API Gateway" width="700px" />
+    <img src="../images/module_04/lambda_03.png" alt="Configure API Gateway" width="700px" />
 
 6. Replace the Lambda function code with with the following snippet, making sure that the indentation is matching:
 
@@ -111,36 +111,36 @@ Let's start building the HTTP API.
 
 9. From the **Configuration** tab, choose **Environment variables**, then select **Edit**.
 
-    <img src="images/lambda_09.png" alt="Environment variables" width="700px" />
+    <img src="../images/module_04/lambda_09.png" alt="Environment variables" width="700px" />
 
 10. On the **Edit environment variables** screen, choose **Add environment variable**.
 
-    <img src="images/lambda_10.png" alt="Edit environment variable" width="700px" /> 
+    <img src="../images/module_04/lambda_10.png" alt="Edit environment variable" width="700px" /> 
 
 11. Enter `SAGEMAKER_ENDPOINT_NAME` as the **Key**. For the **Value**, use the SageMaker endpoint name you noted down in the previous module. The endpoint name starts with _end-to-end-ml-sm-pipeline-endpoint_.
 
-    <img src="images/lambda_11.png" alt="Enter environment variable key and value" width="700px" />  
+    <img src="../images/module_04/lambda_11.png" alt="Enter environment variable key and value" width="700px" />  
 
 12. Choose **Save**.
 
 13. The environment variables section should now display the environment variable you just created.
 
-    <img src="images/lambda_12.png" alt="SageMaker Endpoint Name environment variable" width="700px" />  
+    <img src="../images/module_04/lambda_12.png" alt="SageMaker Endpoint Name environment variable" width="700px" />  
 
 
 ## Create the Amazon API Gateway HTTP API
 
 1. In the **Function overview** section, choose **Add trigger** and select **API Gateway** as the source.
 
-    <img src="images/lambda_04.png" alt="Configure API Gateway" width="700px" />
+    <img src="../images/module_04/lambda_04.png" alt="Configure API Gateway" width="700px" />
 
 2. Choose **Create a new API** and keep the API Type as **HTTP API**. In the **Security** section, choose **Open**, then choose **Add**.
 
-    <img src="images/lambda_05.png" alt="Configure API Gateway" width="700px" />
+    <img src="../images/module_04/lambda_05.png" alt="Configure API Gateway" width="700px" />
 
 3. Click on the **API Gateway** trigger and from the **Configuration** tab, make a note of _API endpoint_. You will need this in the next module.
 
-    <img src="images/lambda_06.png" alt="Configure API Gateway" width="700px" />
+    <img src="../images/module_04/lambda_06.png" alt="Configure API Gateway" width="700px" />
 
     > The API expects a POST HTTP request that contains a comma-delimited list of feature values in the body. If you try to naviagate to the API endpoint URL in the browser, the API will receive a GET request, so it will return HTTP status code 405 (Method Not Allowed).
 
