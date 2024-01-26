@@ -14,19 +14,21 @@
 
 5. Go back to SageMaker Studio and choose **Pipelines** from the menu on the left.
 
+6. Choose the pipeline named **sagemaker-btd-pipeline** to display a list of executions for the pipeline.
+
     <img src="../images/module_03/pipelines.png" alt="Open pipeline script" width="800px" />
 
-6. Choose the pipeline named **sagemaker-btd-pipeline** to display a list of executions for the pipeline.
+7. Choose the last pipeline execution from the list.
 
     <img src="../images/module_03/pipeline_executions.png" alt="Open pipeline script" width="800px" />
 
-7. The pipeline execution page includes a visual representation of the status. Wait until the pipeline execution is completed.
+8. The pipeline execution page includes a visual representation of the status. Wait until the pipeline execution is completed.
 
     <img src="../images/module_03/pipeline-execution-in-progress.png" alt="Open pipeline script" width="800px" />
 
     <img src="../images/module_03/pipeline-execution-completed.png" alt="Open pipeline script" width="800px" />
 
-8. In SageMaker Studio, choose **Deployment >> Endpoints** from the menu on the left. Locate the endpoints whose name starts with `sagemaker-btd-endpoint-`. Find the last deployed endpoint (note the **Created on** field), and make note of the endpoint name. You will need to use this name in the next module.
+9. In SageMaker Studio, choose **Deployment >> Endpoints** from the menu on the left. Locate the endpoints whose name starts with `sagemaker-btd-endpoint-`. Find the last deployed endpoint (note the **Created on** field), and make note of the endpoint name. You will need to use this name in the next module.
 
 	<img src="../images/module_02/view_endpoints.png" alt="List of endpoints" width="800px" />
 
